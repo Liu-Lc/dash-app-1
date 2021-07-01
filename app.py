@@ -15,6 +15,8 @@ Y.append(1)
 # Dash server
 app = dash.Dash()
 
+server = app.server
+
 # Layout
 app.layout = html.Div(children=[
     html.Div(
